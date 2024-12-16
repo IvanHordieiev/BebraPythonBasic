@@ -1,0 +1,5 @@
+x = int(input("Quantitat: "))
+i = float(input("Interés: "))
+a = int(input("Número d'anys: "))
+c = x * ((1+i/100)**a)
+print("Amb el capital {} amb un interés {} per {}-anys, al final es convertirà en un valor de {}".format(x, i, a, c))
